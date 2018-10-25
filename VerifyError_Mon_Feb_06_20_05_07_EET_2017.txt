@@ -1,0 +1,29 @@
+Uncaught exception thrown in Thread[LWJGL Renderer Thread,5,main]
+java.lang.VerifyError: Constructor must call super() or this() before return
+Exception Details:
+  Location:
+    com/patchworkgalaxy/display/ui/util/StandardTooltipDescriptor.<init>(Ljava/lang/String;)V @0: return
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b1                                     
+
+	at com.patchworkgalaxy.display.ui.util.StandardComponentDescriptor.setTooltip(StandardComponentDescriptor.java:167)
+	at com.patchworkgalaxy.display.ui.defs.login.LoginButtonCD.<init>(LoginButtonCD.java:32)
+	at com.patchworkgalaxy.display.ui.defs.login.SecondaryLoginPD.<init>(SecondaryLoginPD.java:27)
+	at com.patchworkgalaxy.display.ui.defs.login.LoginPD$1.act(LoginPD.java:57)
+	at com.patchworkgalaxy.display.ui.util.action.Action$1.callback(Action.java:14)
+	at com.patchworkgalaxy.display.ui.controller.ComponentCallbackManager$Bridge.callback(ComponentCallbackManager.java:48)
+	at com.patchworkgalaxy.display.oldui.UX2DControl.doCallback(UX2DControl.java:542)
+	at com.patchworkgalaxy.display.oldui.UX2DControl.controlUpdate(UX2DControl.java:190)
+	at com.jme3.scene.control.AbstractControl.update(AbstractControl.java:112)
+	at com.jme3.scene.Spatial.runControlUpdate(Spatial.java:570)
+	at com.jme3.scene.Spatial.updateLogicalState(Spatial.java:688)
+	at com.jme3.scene.Node.updateLogicalState(Node.java:145)
+	at com.jme3.scene.Node.updateLogicalState(Node.java:152)
+	at com.jme3.scene.Node.updateLogicalState(Node.java:152)
+	at com.jme3.app.SimpleApplication.update(SimpleApplication.java:245)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.runLoop(LwjglAbstractDisplay.java:151)
+	at com.jme3.system.lwjgl.LwjglDisplay.runLoop(LwjglDisplay.java:185)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.run(LwjglAbstractDisplay.java:228)
+	at java.lang.Thread.run(Thread.java:744)

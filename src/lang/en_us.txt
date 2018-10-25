@@ -1,0 +1,405 @@
+ship.khq.name=Ketriaava HQ
+ship.khq.designation=Ketriaava HQ
+
+ship.kfighter.name=Fighter [KDS-329]
+ship.kfighter.description=Though individually weak, these strike craft are crucial to early defense and swarming strategies. Don't discount their firepower.
+
+ship.kinterceptor.name=Interceptor [KDS-330]
+ship.kinterceptor.description=Nimble strike craft, trading defense and firepower for speed and pinpoint attacks. Reactor overload capability provides tactical flexibility.
+
+ship.kfrigate.name=Frigate [KDAU-400]
+ship.kfrigate.description=A medium-strength craft built for early recon and light combat. In battle, they are best used for swarming alongside strike craft, or flanking enemy capital ships.
+
+ship.kcruiser.name=Cruiser [Liberation-class]
+ship.kcruiser.description=The first heavy hitters to arrive in battle. Their weapons are powerful, quickly taking out most low-tier ships.
+
+ship.kdestroyer.name=Destroyer [Salvation-class]
+ship.kdestroyer.description=Mighty battleships, seen only in battlespaces of particular importance or ferocity.
+
+ship.kdreadnought.name=Dreadnought [Deliverance-class]
+ship.kdreadnought.description=The ultimate warships and pride of the Ketriaava navy. Their mere presence is weapon enough against all but the most resolute foe.
+
+ship.kflag.name=Righteous Vengeance
+ship.kflag.designation=Righteous Vengeance
+ship.kflag.description=When the many cry out in oppression, fear, and pain... \nWhen the powerful subjugate without mercy or benevolence... \nWhen the very soul of our race is crushed underfoot... \n\nWe will respond in kind.
+
+ship.sstrikedrone.name=Strike Drone [ST044]
+ship.sstrikedrone.description=Unmanned strike fighters designed for close-range swarm attacks. Best used in large groups
+
+ship.sheavyattackdrone.name=Heavy Attack Drone [ST042]
+ship.sheavyattackdrone.description=Unmanned strike ships designed for close-range heavy damage in small numbers. Best used alone or with smaller drones backing them up
+
+ship.sbomberdrone.name=Bomber Drone [ST099]
+ship.sbomberdrone.description=Unmanned bombers designed for Electronic Warfare and High-damage attacks. Extremely useful against capital ships, but can only fire once before rearming
+
+ship.sreconfrigate.name=Recon Frigate
+ship.sreconfrigate.description=Light scout ships, largely designed to maintain connectivity with active strike craft
+
+ship.ssiegecruiser.name=Siege Cruiser
+ship.ssiegecruiser.description=A ship designed exclusively for ranged bombardment. Capable of high accuracy at extreme range, the Siege Cruiser can hammer away at enemy positions once it gets into range. However, its mobility and defenses are almost nonexistent, and its accuracy is paltry past the range threshold it boasts
+
+ship.slightcarrier.name=Light Carrier
+ship.slightcarrier.description=Subcapital Carrier, designed exclusively for mobile deployment of small-scale operations. It relies heavily on friendly assets to maintain connectivity as a result of its complete lack of weaponry and only moderate defenses
+
+ship.sheavysupportcarrier.name=Heavy Support Carrier
+ship.sheavysupportcarrier.description=The mainstay of the carrier fleets, designed to spearhead strike operations at range. With powerful shields and a catapult capable of propelling fighters outwards, the HSC should be just behind the front lines. It is only equipped with minimal weaponry, but remains effective at deterring most small subcapitals
+
+ship.scommandsupercarrier.name=Command SuperCarrier
+ship.scommandsupercarrier.description=A supercapital vessel designed to provide a nearly unassailable forward base of operations, this ship is capable of various kinds of powerful electronic warfare, as well as the ability to store Heavy Attack Strike Craft in its hangars
+
+ship.sagilecunning.name=Agile Cunning
+ship.sagilecunning.description=There is no realm forbidden to the imagination. The glory of ourselves, our creations, is a marvel of existence. When these cores of our greatness are at risk, Such an assault must suffer the consequences
+
+ship.kfighter.designation=Drone Squadron QXF-001
+ship.kfighter.designation=Drone Squadron QXF-002
+ship.kfighter.designation=Drone Squadron QXF-003
+ship.kfighter.designation=Drone Squadron QXF-004
+ship.kfighter.designation=Drone Squadron QXF-005
+ship.kfighter.designation=Drone Squadron QXF-006
+ship.kfighter.designation=Drone Squadron QXF-007
+ship.kfighter.designation=Drone Squadron QXF-008
+ship.kfighter.designation=Drone Squadron QXF-009
+ship.kfighter.designation=Drone Squadron QXF-010
+ship.kfighter.designation=Drone Squadron QXF-011
+ship.kfighter.designation=Drone Squadron QXF-012
+ship.kfighter.designation=Drone Squadron QXF-013
+ship.kfighter.designation=Drone Squadron QXF-014
+ship.kfighter.designation=Drone Squadron QXF-015
+
+ship.kinterceptor.designation=Drone Squadron QXI-001
+ship.kinterceptor.designation=Drone Squadron QXI-002
+ship.kinterceptor.designation=Drone Squadron QXI-003
+ship.kinterceptor.designation=Drone Squadron QXI-004
+ship.kinterceptor.designation=Drone Squadron QXI-005
+ship.kinterceptor.designation=Drone Squadron QXI-006
+ship.kinterceptor.designation=Drone Squadron QXI-007
+ship.kinterceptor.designation=Drone Squadron QXI-008
+ship.kinterceptor.designation=Drone Squadron QXI-009
+ship.kinterceptor.designation=Drone Squadron QXI-010
+ship.kinterceptor.designation=Drone Squadron QXI-011
+ship.kinterceptor.designation=Drone Squadron QXI-012
+ship.kinterceptor.designation=Drone Squadron QXI-013
+ship.kinterceptor.designation=Drone Squadron QXI-014
+ship.kinterceptor.designation=Drone Squadron QXI-015
+
+ship.kfrigate.designation=Drone Frigate QXS-001
+ship.kfrigate.designation=Drone Frigate QXS-002
+ship.kfrigate.designation=Drone Frigate QXS-003
+ship.kfrigate.designation=Drone Frigate QXS-004
+ship.kfrigate.designation=Drone Frigate QXS-005
+ship.kfrigate.designation=Drone Frigate QXS-006
+ship.kfrigate.designation=Drone Frigate QXS-007
+ship.kfrigate.designation=Drone Frigate QXS-008
+ship.kfrigate.designation=Drone Frigate QXS-009
+ship.kfrigate.designation=Drone Frigate QXS-010
+ship.kfrigate.designation=Drone Frigate QXS-011
+ship.kfrigate.designation=Drone Frigate QXS-012
+ship.kfrigate.designation=Drone Frigate QXS-013
+ship.kfrigate.designation=Drone Frigate QXS-014
+ship.kfrigate.designation=Drone Frigate QXS-015
+
+ship.kcruiser.designation=Agate
+ship.kcruiser.designation=Alexander
+ship.kcruiser.designation=Amazon
+ship.kcruiser.designation=Basalt
+ship.kcruiser.designation=Bloodstone
+ship.kcruiser.designation=Carnelian
+ship.kcruiser.designation=Coral
+ship.kcruiser.designation=Diamond
+ship.kcruiser.designation=Emerald
+ship.kcruiser.designation=Idocrase
+ship.kcruiser.designation=Ijolite
+ship.kcruiser.designation=Jade
+ship.kcruiser.designation=Jasper
+ship.kcruiser.designation=Labrador
+ship.kcruiser.designation=Lapis
+ship.kcruiser.designation=Malachite
+ship.kcruiser.designation=Melanite
+ship.kcruiser.designation=Moonstone
+ship.kcruiser.designation=Morgan
+ship.kcruiser.designation=Obsidian
+ship.kcruiser.designation=Onyx
+ship.kcruiser.designation=Phalanx
+ship.kcruiser.designation=Ruby
+ship.kcruiser.designation=Sapphire
+ship.kcruiser.designation=Serpentine
+ship.kcruiser.designation=Sunstone
+ship.kcruiser.designation=Topaz
+ship.kcruiser.designation=Turquoise
+
+
+ship.kdestroyer.designation=Atlas
+ship.kdestroyer.designation=Bulwark
+ship.kdestroyer.designation=Churchhill
+ship.kdestroyer.designation=Delta
+ship.kdestroyer.designation=Equinox
+ship.kdestroyer.designation=Furious
+ship.kdestroyer.designation=Glacier
+ship.kdestroyer.designation=Gladius
+ship.kdestroyer.designation=Hearth
+ship.kdestroyer.designation=Hinterland
+ship.kdestroyer.designation=Igneous
+ship.kdestroyer.designation=Indigo
+ship.kdestroyer.designation=Loyola
+ship.kdestroyer.designation=Magma
+ship.kdestroyer.designation=Magestic
+ship.kdestroyer.designation=Palisade
+ship.kdestroyer.designation=Permafrost
+ship.kdestroyer.designation=Piedmont
+ship.kdestroyer.designation=Plain
+ship.kdestroyer.designation=Plateau
+ship.kdestroyer.designation=Prairie
+ship.kdestroyer.designation=Rainshadow
+ship.kdestroyer.designation=Rio Grande
+ship.kdestroyer.designation=Shiva
+ship.kdestroyer.designation=Vulcan
+
+
+ship.kdreadnought.designation=Affinity for Battle
+ship.kdreadnought.designation=Affinity for Greatness
+ship.kdreadnought.designation=Affinity for Glory
+ship.kdreadnought.designation=Affinity for Vigilance
+ship.kdreadnought.designation=Invincible Gold
+ship.kdreadnought.designation=Invincible Red
+ship.kdreadnought.designation=Invincible Yellow
+ship.kdreadnought.designation=Invincible Orange
+ship.kdreadnought.designation=Dauntless Hand
+ship.kdreadnought.designation=Gilded Hand
+ship.kdreadnought.designation=Deliverance Motion
+ship.kdreadnought.designation=Illuminator Motion
+
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-001
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-002
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-003
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-004
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-005
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-006
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-007
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-008
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-009
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-000
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-010
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-011
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-012
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-013
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-014
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-015
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-016
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-017
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-018
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-019
+ship.sstrikedrone.designation=Strike Drone Squadron VAD-020
+
+
+ship.sheavyattackdrone.designation=Heavy Drone VAH-001
+ship.sheavyattackdrone.designation=Heavy Drone VAH-002
+ship.sheavyattackdrone.designation=Heavy Drone VAH-003
+ship.sheavyattackdrone.designation=Heavy Drone VAH-004
+ship.sheavyattackdrone.designation=Heavy Drone VAH-005
+ship.sheavyattackdrone.designation=Heavy Drone VAH-006
+ship.sheavyattackdrone.designation=Heavy Drone VAH-007
+ship.sheavyattackdrone.designation=Heavy Drone VAH-008
+ship.sheavyattackdrone.designation=Heavy Drone VAH-009
+ship.sheavyattackdrone.designation=Heavy Drone VAH-000
+ship.sheavyattackdrone.designation=Heavy Drone VAH-010
+ship.sheavyattackdrone.designation=Heavy Drone VAH-011
+ship.sheavyattackdrone.designation=Heavy Drone VAH-012
+ship.sheavyattackdrone.designation=Heavy Drone VAH-013
+ship.sheavyattackdrone.designation=Heavy Drone VAH-014
+ship.sheavyattackdrone.designation=Heavy Drone VAH-015
+ship.sheavyattackdrone.designation=Heavy Drone VAH-016
+ship.sheavyattackdrone.designation=Heavy Drone VAH-017
+ship.sheavyattackdrone.designation=Heavy Drone VAH-018
+ship.sheavyattackdrone.designation=Heavy Drone VAH-019
+ship.sheavyattackdrone.designation=Heavy Drone VAH-020
+
+
+ship.sbomberdrone.designation=Bomber Drone VAB-001
+ship.sbomberdrone.designation=Bomber Drone VAB-002
+ship.sbomberdrone.designation=Bomber Drone VAB-003
+ship.sbomberdrone.designation=Bomber Drone VAB-004
+ship.sbomberdrone.designation=Bomber Drone VAB-005
+ship.sbomberdrone.designation=Bomber Drone VAB-006
+ship.sbomberdrone.designation=Bomber Drone VAB-007
+ship.sbomberdrone.designation=Bomber Drone VAB-008
+ship.sbomberdrone.designation=Bomber Drone VAB-009
+ship.sbomberdrone.designation=Bomber Drone VAB-010
+ship.sbomberdrone.designation=Bomber Drone VAB-011
+ship.sbomberdrone.designation=Bomber Drone VAB-012
+ship.sbomberdrone.designation=Bomber Drone VAB-013
+ship.sbomberdrone.designation=Bomber Drone VAB-014
+ship.sbomberdrone.designation=Bomber Drone VAB-015
+ship.sbomberdrone.designation=Bomber Drone VAB-016
+ship.sbomberdrone.designation=Bomber Drone VAB-017
+ship.sbomberdrone.designation=Bomber Drone VAB-018
+ship.sbomberdrone.designation=Bomber Drone VAB-019
+ship.sbomberdrone.designation=Bomber Drone VAB-020
+
+
+ship.sreconfrigate.designation=VRS-001
+ship.sreconfrigate.designation=VRS-002
+ship.sreconfrigate.designation=VRS-003
+ship.sreconfrigate.designation=VRS-004
+ship.sreconfrigate.designation=VRS-005
+ship.sreconfrigate.designation=VRS-006
+ship.sreconfrigate.designation=VRS-007
+ship.sreconfrigate.designation=VRS-008
+ship.sreconfrigate.designation=VRS-009
+ship.sreconfrigate.designation=VRS-000
+ship.sreconfrigate.designation=VRS-011
+ship.sreconfrigate.designation=VRS-012
+ship.sreconfrigate.designation=VRS-013
+ship.sreconfrigate.designation=VRS-014
+ship.sreconfrigate.designation=VRS-015
+ship.sreconfrigate.designation=VRS-016
+ship.sreconfrigate.designation=VRS-017
+ship.sreconfrigate.designation=VRS-018
+ship.sreconfrigate.designation=VRS-019
+ship.sreconfrigate.designation=VRS-020
+
+
+ship.ssiegecruiser.designation=Sniper
+ship.ssiegecruiser.designation=Marksman
+ship.ssiegecruiser.designation=Archer
+ship.ssiegecruiser.designation=Bowman
+ship.ssiegecruiser.designation=Hawk
+ship.ssiegecruiser.designation=Eagle
+ship.ssiegecruiser.designation=Raptor
+ship.ssiegecruiser.designation=Falcon
+ship.ssiegecruiser.designation=Kestrel
+ship.ssiegecruiser.designation=Osprey
+ship.ssiegecruiser.designation=Dragun
+ship.ssiegecruiser.designation=Colttor
+
+
+ship.slightcarrier.designation=Hive
+ship.slightcarrier.designation=Nest
+ship.slightcarrier.designation=Treetop
+ship.slightcarrier.designation=Biome
+ship.slightcarrier.designation=Lair
+ship.slightcarrier.designation=Web
+ship.slightcarrier.designation=Warren
+ship.slightcarrier.designation=Roost
+
+
+ship.sheavysupportcarrier.designation=Broodmother
+ship.sheavysupportcarrier.designation=Maelstrom
+ship.sheavysupportcarrier.designation=Serpentine
+
+
+ship.scommandsupercarrier.designation=Pebble in the Water
+ship.scommandsupercarrier.designation=Titan of the Ages
+ship.scommandsupercarrier.designation=Unyielding Legion
+ship.scommandsupercarrier.designation=Dragon's Lair
+ship.scommandsupercarrier.designation=Lord of the Swarm
+
+
+ship.sagilecunning.designation=Agile Cunning
+
+system.shipyard.name=Shipyard
+system.shipyard.description=Produce and deploy ships.
+system.research.name=Research
+system.research.description=Research new technologies.
+system.khqrepair.name=Drydock
+system.khqrepair.description=At the beginning of your turn, ships adjacent to your HQ have their hulls repaired. The repair amount is equal to the ship's shield regeneration rate.
+system.engine.name=Engine
+system.engine.description=Moves to a new position.
+system.kstinglaser.name=Stinger-class Laser
+system.kstinglaser.description=1-damage fighter laser.\n\nBest used for hit-and-runs and swarm-based focus fire.
+system.kslicelaser.name=Slicer-class Laser
+system.kslicelaser.description=2-damage frigate laser.\n\nUsed to break strike craft or land a finishing blow.
+system.kreglaser.name=Regulator-class Laser
+system.kreglaser.description=3-damage cruiser laser.\n\nBest suited for tearing through blockade lines made of low-tier ships.
+system.kgovlaser.name=Governance-class Laser
+system.kgovlaser.description=8-damage destroyer laser.\n\nVery little can stand against these guns, and those that can won't do so for long.
+system.ksovlaser.name=Sovereign-class Laser
+system.ksovlaser.description=11-damage dreadnought laser.\n\nThese guns can melt a ship in seconds.
+system.kdefgun.name=Defender-class Railgun
+system.kdefgun.description=2-damage frigate kinetic with +5% accuracy at minimum range.\n\nUsed to contain strike craft or discourage light warships.
+system.karbgun.name=Arbiter-class Railgun
+system.karbgun.description=4-damage cruiser kinetic.\n\nThese cannons can destroy or heavily damage any smaller ship, quickly shutting them down.
+system.kjudgegun.name=Judgement-class Railgun
+system.kjudgegun.description=8-damage destroyer kinetic w/ +10% accuracy at ranges beyond four tiles.\n\nThese cannons can punch a massive hole in a city or orbital installation, and obliterate nearly any vessel not built for full scale war.
+system.kintervenegun.name=Intervention-class Railgun
+system.kintervenegun.description=11-damage dreadnought kinetic w/ +10% accuracy at ranges beyond 4 tiles.\n\nThese cannons fire rounds that impact with several megatons of force, leveling entire cities or blasting apart even the strongest capital ships with a single shot.
+system.kflaggun.name=Flagship Railgun
+system.kflaggun.description=15-damage dreadnought kinetic w/ +10% accuracy at ranges beyond 4 tiles.\n\nThis variant of the Intervention cannon is mounted exclusively on the Righteous Vengeance.
+system.kflagsupergun.name=Coil Supercharge
+system.kflagsupergun.description=Overloaded Flagship Railgun w/ +30% accuracy.
+system.kgigakinetic.name=Gigakinetic Cannon
+system.kgigakinetic.description=50-damage kinetic.\n\nMake peace with your deity of choice.
+system.koverdrive.name=Overdrive
+system.koverdrive.description=Disables onboard safeties, granting two extra TB but destroying the ship when the turn ends.
+system.kcappassives.name=Capital Systems
+system.kcappassives.description=Onboard torpedo launchers deal 2 kinetic damage to all enemies within 2 tiles at turn start.\n\nActive armor reduces incoming damage by 1 (to a minimum of 5).\n\nThis ship provides an additional staging point.
+system.kflagpassives.name=Flagship Systems
+system.kflagpassives.description=Onboard torpedo launchers deal 2 kinetic damage to all enemies within 4 tiles at turn start.\n\nActive armor reduces incoming damage by 1 (to a minimum of 5).\n\nAllied ships within three tiles deal +1 damage.\n\nThis ship provides an additional staging point.
+
+tech.ktracking.name=Improved Tracking
+tech.ktracking.description=The HQ reconfigures to more effectively track targets.\n\n+5% kinetic accuracy.
+tech.kguidance.name=Heavy Gravity Anchor
+tech.kguidance.description=Considerable power is diverted to the HQ's Gravity Anchor, easing transit for high-mass ships.\n\nHigh-tier ships no longer take extra time in Patch Space.
+tech.kartillery.name=Enhanced Calibration
+tech.kartillery.description=Dedicates the majority of HQ computing power to long-range tracking.\n\nIncreases minimum kinetic hit chance to 45%.\nDoes not affect the enemy HQ.
+tech.kprioritization.name=Priority Uplink
+tech.kprioritization.description=Improves capture uplinks when ships are in close proximity to the central point.\n\nCentral strategic tiles provide an additional staging point.
+tech.kposition.name=Coordinated Positioning
+tech.kposition.description=Recalibrates tracking to capitalize on spatial distortions from strategic locations.\n\n+15% kinetic accuracy when firing from a strategic location.
+tech.khand.name=Staying Hand
+tech.khand.description=Targeting uplinks enhance at close range, enhancing weak point detection.\n\nAllied ships deal +1 kinetic damage when their chance to hit is 50% or greater.
+tech.kfighters.name=Inertial Tactics
+tech.kfighters.description=Thermal blocks are reconfigured for agile combat.\n\nStrike craft get an additional thermal block for movement if they have dealt damage this turn.
+tech.kfocusfire.name=Focus Fire
+tech.kfocusfire.description=Links targeting between ships, enhancing accuracy.\n\nkinetic attacks get +3% accuracy for each attack against the same target this turn (including misses).
+tech.kweapontb.name=Thermal Redistribution
+tech.kweapontb.description=Improvements to thermal emissions from weapons fire.\n\nShips gain an additional thermal block for use in firing weapons.
+tech.kinspiration.name=Inspiration
+tech.kinspiration.description=The awe of power steps onto the battlefield.\n\nThe HQ outsources computing to capital ships.\nShips get a +1 damage bonus to all weapons if you control a higher-tier ship.
+tech.kpatriot.name=Surge of Patriotism
+tech.kpatriot.description=A powerful commitment from Ketriaava High Command.\n\n55 credits are appropriated to you.
+tech.kdoubleir.name=Enhanced Interstellar Railgun
+tech.kdoubleir.description=Prototype technology is fast-tracked for field use.\n\nInterstellar Railgun damage is doubled.
+tech.khqhull.name=Upgrade HQ Defenses
+tech.khqhull.description=Upgrades your HQ's hull by (25/25/50).
+tech.kirailgun.name=Upgrade Interstellar Railgun
+tech.kirailgun.description=Dedicates power to enhancing extreme-range firing solutions.\n\nYour Interstellar Railgun deals (3/6/8) additional damage per turn.
+tech.kresearch.name=Upgrade Generator
+tech.kresearch.description=Improves the HQ's power generator.\n\nThe HQ gets +50% additional power generation per level.
+tech.kcap.name=Upgrade Logistics
+tech.kcap.description=Income cap increases to (25/35/60).
+tech.kincome.name=Upgrade Appropriations
+tech.kincome.description=Your income increases by 2. This is subject to your income cap.
+
+ship.hhq.name=Horizon HQ
+ship.shq.name=Svagh-Ti HQ
+ship.ghq.name=Glisean HQ
+ship.hhq.designation=Horizon HQ
+ship.shq.designation=Svagh-Ti HQ
+ship.ghq.designation=Glisean HQ
+
+ui.mainmenu.1=Story
+ui.mainmenu.2=Multiplayer
+ui.mainmenu.3=Options
+ui.mainmenu.4=Help
+ui.mainmenu.1.1=Campaign
+ui.mainmenu.description.1.1=Embark on your epic journey as Fleetmaster (Not available in demo)
+ui.mainmenu.1.2=Stronghold
+ui.mainmenu.description.1.2=Challenge the mighty Pregalactic Fortress (Not yet available)
+ui.mainmenu.1.3=Lore
+ui.mainmenu.description.1.3=Study the lore of the Patchwork Galaxy universe (Not yet available)
+ui.mainmenu.2.1=Online
+ui.mainmenu.description.2.1=Fight against enemies from around the world
+ui.mainmenu.2.2=Local
+ui.mainmenu.description.2.2=Battle your friends on LAN
+ui.mainmenu.3.1=Visual
+ui.mainmenu.description.3.1=Configure visual options (Not yet available)
+ui.mainmenu.3.2=Audio
+ui.mainmenu.description.3.2=Configure audio options (Not yet available)
+ui.mainmenu.3.3=Other
+ui.mainmenu.description.3.3=Configure misc options (Not yet available)
+ui.mainmenu.4.1=Tutorial
+ui.mainmenu.description.4.1=Play through a tutorial battle (Not yet available)
+ui.mainmenu.4.2=Database
+ui.mainmenu.description.4.2=Read about ships and weapons (Not yet available)
+ui.mainmenu.4.3=Forum
+ui.mainmenu.description.4.3=The official Patchwork Galaxy forums (Not yet available)

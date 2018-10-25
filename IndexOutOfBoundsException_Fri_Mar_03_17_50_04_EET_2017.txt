@@ -1,0 +1,16 @@
+Uncaught exception thrown in Thread[LWJGL Renderer Thread,5,main]
+java.lang.IndexOutOfBoundsException: Index: 453160640, Size: 4
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.remove(ArrayList.java:474)
+	at com.patchworkgalaxy.display.models.AnimationStaged.teardown(AnimationStaged.java:62)
+	at com.patchworkgalaxy.display.models.Animation.end(Animation.java:54)
+	at com.patchworkgalaxy.display.models.Animation.controlUpdate(Animation.java:77)
+	at com.jme3.scene.control.AbstractControl.update(AbstractControl.java:112)
+	at com.jme3.scene.Spatial.runControlUpdate(Spatial.java:570)
+	at com.jme3.scene.Spatial.updateLogicalState(Spatial.java:688)
+	at com.jme3.scene.Node.updateLogicalState(Node.java:152)
+	at com.jme3.app.SimpleApplication.update(SimpleApplication.java:244)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.runLoop(LwjglAbstractDisplay.java:151)
+	at com.jme3.system.lwjgl.LwjglDisplay.runLoop(LwjglDisplay.java:185)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.run(LwjglAbstractDisplay.java:228)
+	at java.lang.Thread.run(Thread.java:744)

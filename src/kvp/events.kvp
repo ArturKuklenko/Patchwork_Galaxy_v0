@@ -1,0 +1,299 @@
+@Event
+Name=Dummy
+Type=SetEvent
+
+@Event
+Name=Standard Movement
+Type=MoveEvent
+Multi=event:Thruster
+
+@Event
+Name=Thruster
+Type=AnimationEvent
+Subtype=Thruster
+Reflexive!
+
+@Event
+Name=Self-Destruct
+Type=ModifyVitalEvent
+Subtype=~event:sender:vitality
+Magnitude=-9999
+Reflexive!
+
+@Event
+Name=Location Staging
+Type=CaptureEvent
+Flags=16
+Magnitude=formula:Capture Magnitude
+Multi=event:Raise IR Damage
+
+@Event
+Name=Raise IR Damage
+Type=ModifyVitalEvent
+Subtype=~player:ir_damage
+Magnitude=~event:cause:magnitude
+
+@Event
+Name=Fire Strategic Weapon
+Type=SetEvent
+Priority=-10
+HitChance=formula:Check Strategic Weapon
+Multi=event:Fire Strategic Weapon Beta
+Multi=event:Reset Strategic Weapon
+
+@Event
+Name=Fire Strategic Weapon Beta
+Type=SearchEvent
+Subtype=IsEnemyHQ
+Magnitude=20
+Multi=weapon:Interstellar Railgun
+
+@Event
+Name=Reset Strategic Weapon
+Type=ModifyVitalEvent
+Subtype=~event:player:ir_damage
+Magnitude=-9999
+
+@Event
+Name=Location Stage 1
+Type=ModifyVitalEvent
+Subtype=~ship:player:credits
+Magnitude=1
+Multi=event:Log Location Stage 1
+
+@Event
+Name=Log Location Stage 1
+Type=ChatEvent
+Subtype= has captured a strategic location (+1 credit)
+
+@Event
+Name=Location Stage 2
+Type=ModifyVitalEvent
+Subtype=~ship:player:credits
+Magnitude=3
+Multi=event:Log Location Stage 2
+
+@Event
+Name=Log Location Stage 2
+Type=ChatEvent
+Subtype= has brought a strategic location to stage 2 (+3 credit)
+
+@Event
+Name=Location Stage 3
+Type=ModifyVitalEvent
+Subtype=~ship:player:credits
+Magnitude=5
+Multi=event:Log Location Stage 3
+
+@Event
+Name=Log Location Stage 3
+Type=ChatEvent
+Subtype= has brought a strategic location to stage 3 (+5 credit)
+
+@Event
+Name=Location Stage 4
+Type=SetEvent
+Multi=event:Log Location Stage 4
+
+@Event
+Name=Log Location Stage 4
+Type=ChatEvent
+Subtype= has locked down a location
+
+@Event
+Name=Location Reversion 1
+Type=ChatEvent
+Subtype= has reverted a hostile location
+
+@Event
+Name=Location Reversion 2
+Type=ChatEvent
+Subtype= has reverted a hostile location to stage 1
+
+@Event
+Name=Location Reversion 3
+Type=ChatEvent
+Subtype= has reverted a hostile location to stage 2
+
+@Event
+Name=Location Reversion 4
+Type=ChatEvent
+Subtype= has broken a hostile lockdown
+
+@Event
+Name=View Patch Space
+Type=UIEvent
+Subtype=Patch Space
+
+@Event
+Name=Do HQ Repair
+Type=SearchEvent
+Subtype=IsAlly
+Magnitude=1
+Multi=event:HQ Repair Beta
+
+@Event
+Name=HQ Repair Beta
+Type=ModifyVitalEvent
+Subtype=~target:ship:hull
+Magnitude=formula:Repair Rate
+
+@Event
+Name=Surge of Patriotism
+Type=ModifyVitalEvent
+Subtype=~player:credits
+Magnitude=55
+
+@Event
+Name=Thermal Redistribution
+Type=ModifyVitalEvent
+Subtype=~target:weapon_thermal:max
+Magnitude=1
+Multi=event:Thermal Redistribution Beta
+
+@Event
+Name=Thermal Redistribution Beta
+Type=ModifyVitalEvent
+Subtype=~target:weapon_thermal
+Magnitude=1
+
+@Event
+Name=Strikecraft Gains Inertial Tactics
+Type=ApplyConditionEvent
+Subtype=condition:Inertial Tactics
+HitChance=formula:Is Strikecraft
+
+@Event
+Name=Inertial Tactics Buff
+Type=ModifyVitalEvent
+Subtype=~target:move_thermal:max
+Magnitude=1
+HitChance=formula:Prevent Inertial Tactics Stacking
+Multi=event:Inertial Tactics Buff Beta
+
+@Event
+Name=Inertial Tactics Buff Beta
+Type=ModifyVitalEvent
+Subtype=~target:move_thermal
+Magnitude=1
+
+@Event
+Name=Remove Inertial Tactics Buff
+Type=ModifyVitalEvent
+Subtype=~target:move_thermal:max
+Magnitude=-999
+
+@Event
+Name=RP Upgrade
+Type=ModifyVitalEvent
+Subtype=~player:research_upgrade
+Magnitude=50
+
+@Event
+Name=HQ Upgrade 1
+Type=ModifyVitalEvent
+Subtype=~player:hq:hull:max
+Magnitude=25
+Multi=event:HQ Upgrade 1 Beta
+
+@Event
+Name=HQ Upgrade 1 Beta
+Type=ModifyVitalEvent
+Subtype=~player:hq:hull
+Magnitude=25
+
+@Event
+Name=HQ Upgrade 2
+Type=ModifyVitalEvent
+Subtype=~player:hq:hull:max
+Magnitude=25
+Multi=event:HQ Upgrade 2 Beta
+
+@Event
+Name=HQ Upgrade 2 Beta
+Type=ModifyVitalEvent
+Subtype=~player:hq:hull
+Magnitude=25
+
+@Event
+Name=HQ Upgrade 3
+Type=ModifyVitalEvent
+Subtype=~player:hq:hull:max
+Magnitude=50
+Multi=event:HQ Upgrade 3 Beta
+
+@Event
+Name=HQ Upgrade 3 Beta
+Type=ModifyVitalEvent
+Subtype=~player:hq:hull
+Magnitude=50
+
+@Event
+Name=Income Upgrade
+Type=ModifyVitalEvent
+Subtype=~player:income
+Magnitude=2
+
+@Event
+Name=Logistics Upgrade 1
+Type=ModifyVitalEvent
+Subtype=~player:income:max
+Magnitude=5
+
+@Event
+Name=Logistics Upgrade 2
+Type=ModifyVitalEvent
+Subtype=~player:income:max
+Magnitude=10
+
+@Event
+Name=Logistics Upgrade 3
+Type=ModifyVitalEvent
+Subtype=~player:income:max
+Magnitude=15
+
+@Event
+Name=Apply Overdrive
+Type=ModifyVitalEvent
+Subtype=~event:sender:thermal:max
+Magnitude=2
+Multi=event:Apply Overdrive Beta
+Multi=condition:Destroy At EOT
+Reflexive!
+
+@Event
+Name=Apply Overdrive Beta
+Type=ModifyVitalEvent
+Subtype=~event:sender:thermal
+Magnitude=2
+
+@Event
+Name=Coil Supercharge Expended
+Type=RemoveConditionEvent
+Subtype=condition:Coil Supercharge
+Reflexive!
+
+@Event
+Name=Defense Torpedo 2
+Type=SearchEvent
+Subtype=IsEnemy
+Magnitude=2
+Multi=weapon:Defense Torpedo
+
+@Event
+Name=Defense Torpedo 4
+Type=SearchEvent
+Subtype=IsEnemy
+Magnitude=4
+Multi=weapon:Defense Torpedo
+
+@Event
+Name=Hangar Demo
+Type=IterateHangarEvent
+Multi=event:Debug Demo Beta
+
+@Event
+Name=Debug Demo Beta
+Type=ModifyVitalEvent
+Subtype=~target:ship:hull
+Magnitude=formula:Repair Rate

@@ -1,0 +1,146 @@
+@Condition
+Name=Strategic
+Trigger=2
+Success=.05
+
+@Condition
+Name=Moves As Type A
+Flags=1
+
+@Condition
+Name=Moves As Interceptor
+Flags=3
+
+@Condition
+Name=HQ Strategic Weapon
+TurnStart=event:Fire Strategic Weapon
+
+@Condition
+Name=HQ Repair
+TurnStart=event:Do HQ Repair
+
+@Condition
+Name=Improved Tracking
+Outgoing!
+Trigger=2
+Success=.05
+
+@Condition
+Name=Staying Hand
+Outgoing!
+Trigger=2
+Formula=formula:Success At Least 50
+Magnitude=1
+
+@Condition
+Name=Enhanced Calibration
+
+@Condition
+Name=Re-Prioritization
+Outgoing!
+Trigger=16
+Formula=formula:On Strategic Center
+Magnitude=1
+
+@Condition
+Name=Coordinated Positioning
+Outgoing!
+Trigger=2
+Formula=formula:From Strategic Tile
+Success=.15
+
+@Condition
+Name=Focus Fire
+Outgoing!
+Trigger=6
+Reaction=condition:Focus Fire Debuff
+ReactTarget=~event:target
+
+@Condition
+Name=Focus Fire Debuff
+Duration=1
+Trigger=2
+Success=0.03
+
+@Condition
+Name=Inspiration
+Outgoing!
+Trigger=6
+Magnitude=Check Inspiration
+
+@Condition
+Name=Inertial Tactics
+TurnStart=event:Remove Inertial Tactics Buff
+Outgoing!
+Trigger=6
+Reaction=event:Inertial Tactics Buff
+ReactTarget=~event:sender
+
+@Condition
+Name=Enhanced Interstellar Railgun
+Outgoing!
+Trigger=8
+Magnitude=~event:cause:magnitude
+
+@Condition
+Name=IR Upgrade 1
+Outgoing!
+Trigger=8
+Magnitude=3
+
+@Condition
+Name=IR Upgrade 2
+Outgoing!
+Trigger=8
+Magnitude=3
+
+@Condition
+Name=IR Upgrade 3
+Outgoing!
+Trigger=8
+Magnitude=2
+
+@Condition
+Name=Destroy At EOT
+TurnEnd=event:Self-Destruct
+
+@Condition
+Name=Juggernaut Armor
+Trigger=6
+Formula=formula:Check Juggernaut Armor
+Magnitude=-1
+
+@Condition
+Name=Extreme Presence
+Outgoing!
+Trigger=16
+Magnitude=1
+
+@Condition
+Name=Symbolic
+Outgoing!
+Trigger=6
+Formula=formula:Check Symbolic
+Magnitude=1
+Global!
+
+@Condition
+Name=Coil Supercharge
+Duration=1
+Outgoing!
+Trigger=2
+Success=.3
+Reaction=event:Coil Supercharge Expended
+ReactTarget=~ship
+
+@Condition
+Name=Defense Torpedo 2
+TurnStart=event:Defense Torpedo 2
+
+@Condition
+Name=Defense Torpedo 4
+TurnStart=event:Defense Torpedo 4
+
+@Condition
+Name=Hangar Demo
+TurnStart=event:Hangar Demo

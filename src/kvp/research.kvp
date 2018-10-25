@@ -1,0 +1,132 @@
+@Research
+Name=ktracking
+ButtonPos=-.6,.75,.1,.12
+Icon=research/redtech.png
+Cost=50
+Initial=condition:Improved Tracking
+
+@Research
+Name=kguidance
+ButtonPos=-.3,.75,.1,.12
+Icon=research/redtech.png
+Cost=50
+Prereq=ktracking
+
+@Research
+Name=kartillery
+ButtonPos=0,.75,.1,.12
+Icon=research/redtech.png
+Cost=100
+Prereq=kguidance
+PerShip=condition:Enhanced Calibration
+
+@Research
+Name=kprioritization
+ButtonPos=-.6,.25,.1,.12
+Icon=research/greentech.png
+Cost=50
+Initial=condition:Re-Prioritization
+
+@Research
+Name=kposition
+ButtonPos=-.3,.25,.1,.12
+Icon=research/greentech.png
+Cost=50
+Prereq=kprioritization
+Initial=condition:Coordinated Positioning
+
+@Research
+Name=khand
+ButtonPos=0,.25,.1,.12
+Icon=research/greentech.png
+Cost=100
+Prereq=kposition
+Initial=condition:Staying Hand
+
+@Research
+Name=kfighters
+ButtonPos=-.6,-.25,.1,.12
+Icon=research/bluetech.png
+Cost=50
+PerShip=event:Strikecraft Gains Inertial Tactics
+
+@Research
+Name=kfocusfire
+ButtonPos=-.3,-.25,.1,.12
+Icon=research/bluetech.png
+Cost=50
+Prereq=kfighters
+Initial=condition:Focus Fire
+
+@Research
+Name=kweapontb
+ButtonPos=0,-.25,.1,.12
+Icon=research/bluetech.png
+Cost=100
+Prereq=kfocusfire
+PerShip=event:Thermal Redistribution
+
+@Research
+Name=kinspiration
+ButtonPos=.32,.3,.15,.6
+Icon=research/yellowtech.png
+Cost=100
+Prereq=kweapontb,khand,kartillery
+Initial=condition:Inspiration
+
+@Research
+Name=kpatriot
+ButtonPos=.6,.45,.1,.12
+Icon=research/redtech.png
+Cost=150
+Prereq=kinspiration
+Initial=event:Surge of Patriotism
+
+
+@Research
+Name=kdoubleir
+ButtonPos=.6,.05,.1,.12
+Icon=research/bluetech.png
+Cost=150
+Prereq=kinspiration
+Initial=condition:Enhanced Interstellar Railgun
+
+@Research
+Name=khqhull
+ButtonPos=-.3,-.5,.05,.06
+Icon=research/yellowtech.png
+Cost=50
+Levels=3
+Initial=event:HQ Upgrade %
+
+@Research
+Name=kirailgun
+ButtonPos=-.15,-.5,.05,.06
+Icon=research/yellowtech.png
+Cost=50
+Levels=3
+Initial=condition:IR Upgrade %
+
+@Research
+Name=kresearch
+ButtonPos=0,-.5,.05,.06
+Icon=research/yellowtech.png
+Cost=50
+Levels=3
+Initial=event:RP Upgrade
+
+@Research
+Name=kcap
+ButtonPos=.15,-.5,.05,.06
+Icon=research/yellowtech.png
+Cost=50
+Levels=3
+Initial=event:Logistics Upgrade %
+
+@Research
+Name=kincome
+ButtonPos=.3,-.5,.05,.06
+Icon=research/yellowtech.png
+Cost=50
+Levels=3
+Initial=event:Income Upgrade

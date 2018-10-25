@@ -1,0 +1,11 @@
+Ships=ships.kvp
+Weapons=weapons.kvp
+Factions=factions.kvp
+Events=events.kvp
+Systems=systems.kvp
+Conditions=conditions.kvp
+Formulas=formulas.kvp
+Research=research.kvp
+Models=models.kvp
+Animations=animations.kvp
+Spewers=spewers.kvp

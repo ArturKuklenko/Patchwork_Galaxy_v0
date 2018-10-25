@@ -1,0 +1,368 @@
+@Animation
+Name=Patch Base
+Type=PatchIn
+
+@Animation
+Name=Patch Space Arrival
+Type=Staged
+Trigger=Arrival
+@Stage
+Start=0
+End=.02
+Special!
+@Stage
+Start=.01
+End=.11
+Invoke=Patch Base
+@Stage
+Start=.12
+End=.15
+Spew=Patchin
+
+@Animation
+Name=Patch Space Arrival OLD
+Type=Staged
+Trigger=Arrival
+@Stage
+Start=0
+End=.1
+Spew=Patchin
+@Stage
+Start=.08
+End=.08
+Special!
+
+@Animation
+Name=Patch Bullet Arrival
+Type=Staged
+Trigger=Arrival
+Mode=PRIORITY
+DelayVariance=.5
+@Stage
+Start=0
+End=.1
+Spew=Patchin
+@Stage
+Start=.08
+End=.08
+Special!
+
+@Animation
+Name=Random Explosion
+Type=Staged
+Point=Random
+DelayVariance=2
+@Stage
+Start=0
+End=.5
+Spew=Minor Explosion
+
+@Animation
+Name=Random Explosion 5
+Type=Staged
+@Stage
+Start=0
+End=2
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Random Explosion
+
+@Animation
+Name=Random Explosion Pattern
+Type=Staged
+@Stage
+Start=0
+End=8
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Random Explosion
+@Stage
+Start=1.5
+End=8
+Invoke=Random Explosion 5
+@Stage
+Start=3
+End=8
+Invoke=Random Explosion 5
+Invoke=Random Explosion 5
+
+@Animation
+Name=Death Painray
+Type=Staged
+Point=Random
+DelayVariance=2
+@Stage
+Start=0
+End=20
+Spew=Painray
+
+@Animation
+Name=Particle Burst
+Type=Staged
+DelayVariance=1
+@Stage
+Start=0
+End=1
+Spew=Burst Ray
+
+@Animation
+Name=Death Painray 5
+Type=Staged
+@Stage
+Start=0
+End=20
+Invoke=Death Painray
+Invoke=Death Painray
+Invoke=Death Painray
+Invoke=Death Painray
+Invoke=Death Painray
+
+@Animation
+Name=Particle Burst 5
+Type=Staged
+@Stage
+Start=0
+End=2
+Invoke=Particle Burst
+Invoke=Particle Burst
+Invoke=Particle Burst
+Invoke=Particle Burst
+Invoke=Particle Burst
+
+@Animation
+Name=Missile Death Delay
+Type=Staged
+Trigger=Death
+@Stage
+Start=.5
+End=.5
+
+@Animation
+Name=Missile Impact
+Type=Staged
+Trigger=Death
+@Stage
+Start=0
+End=.5
+Spew=Reverse Fireball
+
+@Animation
+Name=Small Death
+Type=Staged
+Trigger=Death
+@Stage
+Start=0
+End=3.5
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Death Painray 5
+@Stage
+Start=.5
+End=1.5
+Invoke=Random Explosion
+Invoke=Random Explosion
+Invoke=Random Explosion
+@Stage
+Start=2
+End=3
+Scale=2
+Spew=Sparks
+Spew=Fireball
+Spew=Flash
+@Stage
+Start=2.5
+End=3.5
+Spew=Directed Fireball
+@Stage
+Start=2.5
+End=3.5
+Scale=.5
+Spew=Directed Fireball
+@Stage
+Start=3
+End=3
+Special!
+
+@Animation
+Name=Medium Death
+Type=Staged
+Trigger=Death
+Delay=1
+@Stage
+Start=0
+End=6
+Invoke=Random Explosion Pattern
+Invoke=Death Painray 5
+@Stage
+Start=1
+End=6
+Invoke=Death Painray 5
+Invoke=Particle Burst 5
+@Stage
+Start=3
+End=5
+Invoke=Random Explosion 5
+Spew=Fireball
+@Stage
+Start=4
+End=4.5
+Scale=3
+Spew=Fireball
+Spew=Sparks
+Spew=Flash
+@Stage
+Start=3.5
+End=5
+Scale=2
+Spew=Shockwaves
+Spew=Directed Fireball
+@Stage
+Start=4.3
+End=4.3
+Special!
+
+@Animation
+Name=Large Death
+Type=Staged
+Trigger=Death
+Delay=2
+@Stage
+Start=0
+End=4
+Invoke=Random Explosion 5
+@Stage
+Start=2
+End=6
+Invoke=Random Explosion 5
+Invoke=Death Painray 5
+Invoke=Particle Burst 5
+@Stage
+Start=4
+End=8
+Invoke=Random Explosion 5
+Invoke=Death Painray 5
+Invoke=Particle Burst 5
+@Stage
+Start=5
+End=10
+Invoke=Random Explosion 5
+Invoke=Death Painray 5
+Invoke=Particle Burst 5
+@Stage
+Start=8
+End=10
+Invoke=Random Explosion 5
+Invoke=Random Explosion 5
+Invoke=Random Explosion 5
+@Stage
+Start=9
+End=11
+Invoke=Random Explosion 5
+Invoke=Random Explosion 5
+Invoke=Random Explosion 5
+@Stage
+Start=9
+End=11
+Scale=4
+Spew=Fireball
+Spew=Sparks
+Spew=Flash
+@Stage
+Start=10
+End=11
+Scale=6
+Spew=Flash
+Spew=Shockwaves
+@Stage
+Start=10.25
+End=10.25
+Special!
+
+@Animation
+Name=Thruster1A
+Type=Spewer
+Point=Thruster
+Scale=.03
+Spew=Thrust1A
+
+@Animation
+Name=Thruster1B
+Type=Spewer
+Point=Thruster
+Scale=.03
+Spew=Thrust1B
+
+@Animation
+Name=Thruster1A_Large
+Type=Spewer
+Point=Thruster
+Scale=.03
+Spew=Thrust1A_Large
+
+@Animation
+Name=Thruster1B_Large
+Type=Spewer
+Point=Thruster
+Scale=.03
+Spew=Thrust1B_Large
+
+@Animation
+Name=Ketriaava Thruster
+Type=Support
+Trigger=Thruster
+Primary=Move
+Secondary=Thruster1A
+Secondary=Thruster1B
+
+@Animation
+Name=Ketriaava Thruster 3
+Type=Support
+Trigger=Thruster
+Primary=Move
+Secondary=Thruster1A
+Secondary=Thruster1A
+Secondary=Thruster1A
+Secondary=Thruster1B
+Secondary=Thruster1B
+Secondary=Thruster1B
+
+@Animation
+Name=Ketriaava Thruster Large 3
+Type=Support
+Trigger=Thruster
+Primary=Move
+Secondary=Thruster1A_Large
+Secondary=Thruster1A_Large
+Secondary=Thruster1A_Large
+Secondary=Thruster1B_Large
+Secondary=Thruster1B_Large
+Secondary=Thruster1B_Large
+
+@Animation
+Name=Laser1A
+Type=Spewer
+Scale=.2
+Spew=Laser1A
+
+@Animation
+Name=Ketriaava Laser
+Type=Support
+Trigger=Thruster
+Primary=Move
+Secondary=Laser1A
+
+@Animation
+Name=Kinetic1A
+Type=Spewer
+Scale=.2
+Spew=Kinetic1A
+
+@Animation
+Name=Ketriaava Missile
+Type=Support
+Trigger=Thruster
+Primary=Move
+Secondary=Kinetic1A

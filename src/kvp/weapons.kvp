@@ -1,0 +1,198 @@
+@Weapon
+Name=Interstellar Railgun
+ShortName=KPatchBullet
+Flags=9
+Model=KPatchBullet
+Magnitude=~player:ir_damage
+
+@Weapon
+Name=Stinger-class Laser
+ShortName=KFightLaser
+Flags=5
+Model=KLaser Small
+Magnitude=1
+
+@Weapon
+Name=Slicer-class Laser
+ShortName=KFrigLaser
+Flags=5
+Model=KLaser Small
+Magnitude=2
+
+@Weapon
+Name=Regulator-class Laser
+ShortName=KCruiseLaser
+Flags=5
+Model=KLaser Medium
+Magnitude=3
+
+@Weapon
+Name=Governance-class Laser
+ShortName=KDestroyLaser
+Flags=5
+Model=KLaser Large
+Magnitude=8
+
+@Weapon
+Name=Sovereign-class Laser
+ShortName=KDreadLaser
+Flags=5
+Model=KLaser Capital
+Magnitude=11
+
+@Weapon
+Name=Defender-class Railgun
+ShortName=KFrigGun
+Flags=3
+Model=KBullet Small
+Magnitude=2
+HitChance=formula:Precision Hit Chance
+
+@Weapon
+Name=Arbitrator-class Railgun
+ShortName=KCruiseGun
+Flags=3
+Model=KBullet Medium
+Magnitude=4
+HitChance=formula:Kinetic Hit Chance
+
+@Weapon
+Name=Judgement-class Railgun
+ShortName=KDestroyGun
+Flags=3
+Model=KBullet Large
+Magnitude=8
+HitChance=formula:Artillery Hit Chance
+
+@Weapon
+Name=Intervention-class Railgun
+ShortName=KDreadGun
+Flags=3
+Model=KBullet Capital
+Magnitude=11
+HitChance=formula:Artillery Hit Chance
+
+@Weapon
+Name=Flagship Railgun
+ShortName=KDreadGun
+Flags=3
+Model=KBullet Capital
+Magnitude=15
+HitChance=formula:Artillery Hit Chance
+
+@Weapon
+Name=Flagship Super Railgun
+ShortName=KDreadGun
+Flags=3
+Model=KBullet Capital
+Magnitude=15
+HitChance=formula:Super Artillery Hit Chance
+
+@Weapon
+Name=Gigakinetic Cannon
+ShortName=KGigakineticCannon
+Flags=3
+Model=KBullet Capital
+Magnitude=50
+HitChance=formula:Artillery Hit Chance
+
+@Weapon
+Name=Defense Torpedo
+ShortName=KDefenseTorp
+Flags=1
+Model=KBullet Small
+Magnitude=2
+HitChance=.8
+
+@Weapon
+Name=SPinpoint Laser
+ShortName=SPinpointLaser
+Flags=5
+Model=KLaser Small
+Magnitude=30
+
+@Weapon
+Name=SHeavy Multifrequency Laser
+ShortName=SHeavyMultifrequencyLaser
+Flags=5
+Model=KLaser Medium
+Magnitude=50
+
+@Weapon
+Name=SHyper Laser
+ShortName=SHyperLaser
+Flags=5
+Model=KLaser Large
+Magnitude=100
+
+@Weapon
+Name=SBombardment Kinetic
+ShortName=SHeavyMultifrequencyLaser
+Flags=3
+Model=KBullet Capital
+Magnitude=20
+HitChance=formula:Kinetic Hit Chance
+
+@Weapon
+Name=SHeavy Bombardier Kinetic
+ShortName=SHeavyBombardierKinetic
+Flags=3
+Model=KBullet Capital
+Magnitude=40
+HitChance=formula:Kinetic Hit Chance
+
+@Weapon
+Name=SLuminator Gun
+ShortName=SLuminatorGun
+Flags=3
+Model=KBullet Capital
+Magnitude=60
+HitChance=formula:Kinetic Hit Chance
+
+@Weapon
+Name=SSwarm Missiles
+ShortName=SSwarmMissiles
+Flags=3
+Model=KBullet Capital
+Magnitude=10
+HitChance=formula:Kinetic Hit Chance
+
+@Weapon
+Name=SNanodrone Torpedo
+ShortName=SNanodroneTorpedo
+Flags=1
+Model=KBullet Small
+Magnitude=20
+HitChance=.8
+
+@Weapon
+Name=SEWAR Torpedo
+ShortName=SEWARTorpedo
+Flags=1
+Model=KBullet Small
+Magnitude=40
+HitChance=.8
+
+@Weapon
+Name=SHeavy-Ordinance Bomb 
+ShortName=SHeavyOrdinanceBomb 
+Flags=100
+Model=KBullet Large
+Magnitude=40
+HitChance=.8
+
+@Weapon
+Name=SAnti-Subcapital Swarm Missile
+ShortName=SAntiSubcapitalSwarmMissile
+Flags=40
+Model=KBullet Medium
+Magnitude=40
+HitChance=.8
+
+@Weapon
+Name=STachyon Surge
+ShortName=STachyonSurge
+Flags=250
+Model=KBullet Capital
+Magnitude=40
+HitChance=.8

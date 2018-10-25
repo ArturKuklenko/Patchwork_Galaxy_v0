@@ -1,0 +1,164 @@
+@Model
+Name=Hex
+File=board/hex.j3o
+Scale=20
+
+@Model
+Name=KHeadquarters
+File=ship/ketriaava/headquarters/headquarters.j3o
+Scale=30
+Point=KPatchBullet:0 20 0
+Animation=Large Death
+
+@Model
+Name=KFighter
+File=ship/ketriaava/fighter/fighter.j3o
+Scale=30
+Speed=60
+Point=Thruster:0 0 -8
+Animation=Small Death
+Animation=Ketriaava Thruster
+Animation=Patch Space Arrival
+
+@Model
+Name=KInterceptor
+File=ship/ketriaava/interceptor/interceptor.j3o
+Scale=30
+Speed=70
+Point=Thruster:0 0 -8
+Animation=Small Death
+Animation=Ketriaava Thruster
+Animation=Patch Space Arrival
+
+@Model
+Name=KFrigate
+File=ship/ketriaava/frigate/frigate.j3o
+Scale=30
+Speed=60
+Point=Thruster:0 0 -10.5
+Point=Thruster:-3.1 0 -9.5
+Point=Thruster:3.1 0 -9.5
+Animation=Medium Death
+Animation=Ketriaava Thruster 3
+Animation=Patch Space Arrival
+
+@Model
+Name=KCruiser
+File=ship/ketriaava/cruiser/cruiser.j3o
+Scale=30
+Speed=50
+Point=Thruster:0 0 -10
+Point=Thruster:-3.8 0 -9.5
+Point=Thruster:3.8 0 -9.5
+Animation=Medium Death
+Animation=Ketriaava Thruster Large 3
+Animation=Patch Space Arrival
+
+@Model
+Name=KDestroyer
+File=ship/ketriaava/destroyer/destroyer.j3o
+Scale=30
+Speed=30
+Point=Thruster:0 0 -19
+Point=Thruster:5 0 -16.5
+Point=Thruster:-5 0 -16.5
+Animation=Large Death
+Animation=Ketriaava Thruster Large 3
+Animation=Patch Space Arrival
+
+@Model
+Name=KDreadnought
+File=ship/ketriaava/dreadnought/dreadnought.j3o
+Scale=30
+Speed=30
+Point=Thruster:0 0 -28
+Point=Thruster:6 0 -25
+Point=Thruster:-6 0 -25
+Animation=Large Death
+Animation=Ketriaava Thruster Large 3
+Animation=Patch Space Arrival
+
+@Model
+Name=KFlag
+File=ship/ketriaava/righteousvengeance/righteousvengeance.j3o
+Scale=30
+Speed=30
+Point=Thruster:0 0 -26
+Point=Thruster:-6 0 -29
+Point=Thruster:6 0 -29
+Animation=Large Death
+Animation=Ketriaava Thruster Large 3
+Animation=Patch Space Arrival
+
+@Model
+Name=KBullet Small
+File=weapon/ketriaava/bullet.j3o
+Scale=1
+Speed=150
+Animation=Ketriaava Missile
+Animation=Missile Impact
+
+@Model
+Name=KBullet Medium
+File=weapon/ketriaava/bullet.j3o
+Scale=1.1
+Speed=170
+Animation=Ketriaava Missile
+Animation=Missile Impact
+
+@Model
+Name=KBullet Large
+File=weapon/ketriaava/bullet.j3o
+Scale=1.2
+Speed=190
+Animation=Ketriaava Missile
+Animation=Missile Impact
+
+@Model
+Name=KBullet Capital
+File=weapon/ketriaava/bullet.j3o
+Scale=1.3
+Speed=200
+Animation=Ketriaava Missile
+Animation=Missile Impact
+
+@Model
+Name=KPatchBullet
+File=weapon/ketriaava/bullet.j3o
+Scale=1
+Speed=200
+Animation=Ketriaava Missile
+Animation=Missile Impact
+Animation=Patch Bullet Arrival
+
+@Model
+Name=KLaser Small
+File=weapon/ketriaava/laser.j3o
+Scale=10
+Speed=150
+Animation=Ketriaava Laser
+Animation=Missile Death Delay
+
+@Model
+Name=KLaser Medium
+File=weapon/ketriaava/laser.j3o
+Scale=20
+Speed=150
+Animation=Ketriaava Laser
+Animation=Missile Death Delay
+
+@Model
+Name=KLaser Large
+File=weapon/ketriaava/laser.j3o
+Scale=40
+Speed=150
+Animation=Ketriaava Laser
+Animation=Missile Death Delay
+
+@Model
+Name=KLaser Capital
+File=weapon/ketriaava/laser.j3o
+Scale=60
+Speed=150
+Animation=Ketriaava Laser
+Animation=Missile Death Delay

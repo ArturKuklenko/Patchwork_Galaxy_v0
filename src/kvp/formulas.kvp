@@ -1,0 +1,221 @@
+@Formula
+Name=Restrict Global Condition To Allied Events
+Compare=StrictEquals
+A=~event:player
+B=~condition:player
+
+@Formula
+Name=Range Minus 1
+Compare=Subtract
+A=~event:range
+B=1
+
+@Formula
+Name=Kinetic Miss Chance
+Compare=Multiply
+A=formula:Range Minus 1
+B=~event:target:falloff
+
+@Formula
+Name=Raw Kinetic Hit Chance
+Compare=Subtract
+A=1
+B=formula:Kinetic Miss Chance
+
+@Formula
+Name=Kinetic Hit Chance
+Compare=Max
+A=formula:Kinetic Miracle Chance
+B=formula:Raw Kinetic Hit Chance
+
+@Formula
+Name=Kinetic Miracle Chance
+Compare=Multiply
+A=~event:target:miracle_vulnerability
+B=formula:Miracle Multiplier
+
+@Formula
+Name=Miracle Multiplier
+Compare=Max
+A=1
+B=formula:Apply Enhanced Calibration
+
+@Formula
+Name=Check Strategic Weapon
+Compare=Or
+A=~player:ir_damage
+B=~player:techs:kirailgun
+
+@Formula
+Name=Repair Rate
+Compare=Max
+A=~event:target:shield_regen
+B=0
+
+@Formula
+Name=Apply Enhanced Calibration
+Compare=Multiply
+A=~ship:conditions:Enhanced Calibration
+B=9
+
+@Formula
+Name=Capture Magnitude
+Compare=Add
+A=formula:Capture Magnitude Beta
+B=1
+
+@Formula
+Name=Capture Magnitude Beta
+Compare=And
+A=formula:On Strategic Center
+B=~ship:near_allies
+
+@Formula
+Name=On Strategic Center
+Compare=StrictEquals
+A=~ship
+B=~event:target:center:ship
+
+@Formula
+Name=Target Is Owned
+Compare=StrictEquals
+A=~ship:player
+B=~event:target:player
+
+@Formula
+Name=Invert Cause Magnitude
+Compare=Multiply
+A=~event:cause:magnitude
+B=-1
+
+@Formula
+Name=Target Not HQ
+Compare=StrictNotEquals
+A=~event:target
+B=~event:target:player:hq
+
+@Formula
+Name=Patch Interference
+Compare=Subtract
+A=4
+B=~player:techs:kguidance
+
+@Formula
+Name=Not Same Strategic Group
+Compare=StrictNotEquals
+A=~ship:position:strategic
+B=~target:position:strategic
+
+@Formula
+Name=External To Strategic Group
+Compare=And
+A=formula:Not Same Strategic Group
+B=~target:position:strategic
+
+@Formula
+Name=Success At Least 50
+Compare=GreaterThanOrEqual
+A=~event:chance
+B=.5
+
+@Formula
+Name=From Strategic Tile
+Compare=And
+A=~event:sender:position:strategic
+B=formula:Not Same Strategic Group
+
+@Formula
+Name=On Strategic Tile
+Compare=Or
+A=~condition:position:strategic
+B=0
+
+@Formula
+Name=Check Inspiration
+Compare=GreaterThan
+A=~ship:player:highest_tier
+B=~ship:tier
+
+@Formula
+Name=Is Strikecraft
+Compare=NumericEquals
+A=~target:tier
+B=1
+
+@Formula
+Name=Prevent Inertial Tactics Stacking
+Compare=NumericEquals
+A=~target:move_thermal:max
+B=0
+
+@Formula
+Name=Check Precision
+Compare=NumericEquals
+A=~event:range
+B=2
+
+@Formula
+Name=Apply Precision
+Compare=Multiply
+A=formula:Check Precision
+B=.05
+
+@Formula
+Name=Precision Hit Chance
+Compare=Add
+A=formula:Kinetic Hit Chance
+B=formula:Apply Precision
+
+@Formula
+Name=Check Artillery
+Compare=GreaterThan
+A=~event:range
+B=4
+
+@Formula
+Name=Apply Artillery
+Compare=Multiply
+A=formula:Check Artillery
+B=.1
+
+@Formula
+Name=Artillery Hit Chance
+Compare=Add
+A=formula:Kinetic Hit Chance
+B=formula:Apply Artillery
+
+@Formula
+Name=Super Artillery Hit Chance
+Compare=Add
+A=formula:Artillery Hit Chance
+B=.3
+
+@Formula
+Name=Check Juggernaut Armor
+Compare=GreaterThan
+A=~event:magnitude
+B=5
+
+@Formula
+Name=Check Symbolic
+Compare=And
+A=formula:Restrict Global Condition To Allied Events
+B=formula:Check Symbolic Range
+
+@Formula
+Name=Check Symbolic Range
+Compare=And
+A=formula:Check Symbolic Range Maximum
+B=formula:Check Symbolic Range Minimum
+
+@Formula
+Name=Check Symbolic Range Maximum
+Compare=LessThanOrEqual
+A=~condition:range:~event:sender
+B=3
+
+@Formula
+Name=Check Symbolic Range Minimum
+Compare=GreaterThan
+A=~condition:range:~event:sender
+B=0

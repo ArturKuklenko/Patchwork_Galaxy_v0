@@ -1,0 +1,25 @@
+Uncaught exception thrown in Thread[LWJGL Renderer Thread,5,main]
+java.lang.VerifyError: Constructor must call super() or this() before return
+Exception Details:
+  Location:
+    com/patchworkgalaxy/display/ui/util/StandardTooltipDescriptor.<init>(Ljava/lang/String;)V @0: return
+  Reason:
+    Error exists in the bytecode
+  Bytecode:
+    0000000: b1                                     
+
+	at com.patchworkgalaxy.display.ui.defs.game.TileManager.getTileComponentDescriptor(TileManager.java:55)
+	at com.patchworkgalaxy.display.ui.defs.game.TileManager.update(TileManager.java:51)
+	at com.patchworkgalaxy.display.ui.defs.game.TileManager.update(TileManager.java:23)
+	at com.patchworkgalaxy.general.subscriptions.BaseSubscribable.pushMessages(BaseSubscribable.java:50)
+	at com.patchworkgalaxy.general.subscriptions.BaseSubscribable$1.run(BaseSubscribable.java:36)
+	at com.patchworkgalaxy.PatchworkGalaxy$1.call(PatchworkGalaxy.java:205)
+	at com.patchworkgalaxy.PatchworkGalaxy$1.call(PatchworkGalaxy.java:203)
+	at com.jme3.app.AppTask.invoke(AppTask.java:142)
+	at com.jme3.app.Application.runQueuedTasks(Application.java:583)
+	at com.jme3.app.Application.update(Application.java:596)
+	at com.jme3.app.SimpleApplication.update(SimpleApplication.java:231)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.runLoop(LwjglAbstractDisplay.java:151)
+	at com.jme3.system.lwjgl.LwjglDisplay.runLoop(LwjglDisplay.java:185)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.run(LwjglAbstractDisplay.java:228)
+	at java.lang.Thread.run(Thread.java:744)

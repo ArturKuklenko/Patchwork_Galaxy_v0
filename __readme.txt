@@ -1,0 +1,2 @@
+The executable is dist/PatchworkGalaxy.jar. You'll need to update the server.
+To see carrier functionality, edit data/factions.kvp and replace kcruise with hangardemo, then patch in a cruiser and move fighters or interceptors onto it.

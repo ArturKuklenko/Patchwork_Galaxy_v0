@@ -1,0 +1,280 @@
+@System
+Name=shipyard
+ShortName=Shipyard
+LaunchEvent=event:View Patch Space
+ThermalCost=0
+TargetValidator=IsSelf
+Hotkey=S
+Icon=icon/shipyard.png
+Reusable=1
+
+@System
+Name=research
+ShortName=Research
+Special!
+LaunchEvent=event:Dummy
+ThermalCost=0
+TargetValidator=Fake
+Hotkey=R
+Icon=icon/research.png
+Reusable=1
+
+@System
+Name=khqrepair
+ShortName=HQRepair
+LaunchEvent=event:Dummy
+ThermalCost=0
+TargetValidator=Fake
+Icon=icon/repair.png
+
+@System
+Name=engine
+ShortName=Engine
+LaunchEvent=event:Standard Movement
+ThermalCost=0
+TargetValidator=TypeAMovement
+Hotkey=M
+Icon=icon/move.png
+Reusable=-1
+
+@System
+Name=kstinglaser
+ShortName=StingLaser
+LaunchEvent=weapon:Stinger-class Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=kslicelaser
+ShortName=SliceLaser
+LaunchEvent=weapon:Slicer-class Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=kreglaser
+ShortName=RegLaser
+LaunchEvent=weapon:Regulator-class Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=kgovlaser
+ShortName=GovLaser
+LaunchEvent=weapon:Governance-class Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=ksovlaser
+ShortName=SovLaser
+LaunchEvent=weapon:Sovereign-class Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=kdefgun
+ShortName=DefGun
+LaunchEvent=weapon:Defender-class Railgun
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=karbgun
+ShortName=ArbGun
+LaunchEvent=weapon:Arbitrator-class Railgun
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=kjudgegun
+ShortName=JudgeGun
+LaunchEvent=weapon:Judgement-class Railgun
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=kintervenegun
+ShortName=InterveneGun
+LaunchEvent=weapon:Intervention-class Railgun
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=kflaggun
+ShortName=KFlagGun
+LaunchEvent=weapon:Flagship Railgun
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=kflagsupergun
+ShortName=KFlagSuperGun
+LaunchEvent=weapon:Flagship Super Railgun
+ThermalCost=2
+TargetValidator=IsFarEnemy
+Hotkey=S
+Icon=icon/sniper.png
+
+@System
+Name=kgigakinetic
+ShortName=Gigakinetic
+LaunchEvent=weapon:Gigakinetic Cannon
+ThermalCost=3
+TargetValidator=IsFarEnemy
+Hotkey=G
+Icon=icon/gigakinetic.png
+
+@System
+Name=koverdrive
+ShortName=Overdrive
+LaunchEvent=event:Apply Overdrive
+ThermalCost=0
+TargetValidator=IsSelf
+Hotkey=O
+Icon=icon/overdrive.png
+
+@System
+Name=kcappassives
+ShortName=KCapPassives
+LaunchEvent=event:Dummy
+ThermalCost=0
+TargetValidator=Fake
+Icon=icon/priority.png
+
+@System
+Name=kflagpassives
+ShortName=KFlagPassives
+LaunchEvent=event:Dummy
+ThermalCost=0
+TargetValidator=Fake
+Icon=icon/priority.png
+
+@System
+Name=spinpointlaser
+ShortName=SPinpointlaser
+LaunchEvent=weapon:SPinpoint Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=sheavymultifrequencylaser
+ShortName=SHeavymultifrequencylaser
+LaunchEvent=weapon:SHeavy Multifrequency Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=shyperlaser
+ShortName=SHyperlaser
+LaunchEvent=weapon:SHyper Laser
+ThermalCost=1
+TargetValidator=IsAdjacentEnemy
+Hotkey=L
+Icon=icon/laser.png
+
+@System
+Name=sbombardmentkinetic
+ShortName=SBombardmentkinetic
+LaunchEvent=weapon:SBombardment Kinetic
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=sbombardierkinetic
+ShortName=SBombardierkinetic
+LaunchEvent=weapon:SHeavy Bombardier Kinetic
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=sluminatorgun
+ShortName=SLuminatorgun
+LaunchEvent=weapon:SLuminator Gun
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=sswarmmissiles
+ShortName=SSwarmmissiles
+LaunchEvent=weapon:SSwarm Missiles
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=snanodronetorpedo
+ShortName=SNanodronetorpedo
+LaunchEvent=weapon:SNanodrone Torpedo
+ThermalCost=1
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/torpedoes.png
+
+@System
+Name=sewartorpedo
+ShortName=SEwartorpedo
+LaunchEvent=weapon:SEWAR Torpedo
+ThermalCost=5
+TargetValidator=IsEnemyHQ
+Hotkey=K
+Icon=icon/torpedoes.png
+
+@System
+Name=sheavyordinancebomb
+ShortName=Sheavyordinancebomb
+LaunchEvent=weapon:SHeavy-Ordinance Bomb 
+ThermalCost=5
+TargetValidator=IsEnemyHQ
+Hotkey=K
+Icon=icon/torpedoes.png
+
+@System
+Name=santisubcapitalswarmmissile
+ShortName=SAntisubcapitalswarmmissile
+LaunchEvent=weapon:SAnti-Subcapital Swarm Missile
+ThermalCost=5
+TargetValidator=IsEnemyHQ
+Hotkey=K
+Icon=icon/kinetic.png
+
+@System
+Name=stachyonsurge
+ShortName=STachyonsurge
+LaunchEvent=weapon:STachyon Surge
+ThermalCost=5
+TargetValidator=IsFarEnemy
+Hotkey=K
+Icon=icon/kinetic.png
+

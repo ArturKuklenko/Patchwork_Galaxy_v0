@@ -1,0 +1,29 @@
+Uncaught exception thrown in Thread[LWJGL Renderer Thread,5,main]
+java.lang.RuntimeException: com.patchworkgalaxy.template.ParseException: In animations.kvp, line 175:
+
+	at com.patchworkgalaxy.template.TemplateRegistry.init(TemplateRegistry.java:145)
+	at com.patchworkgalaxy.PatchworkGalaxy.simpleInitApp(PatchworkGalaxy.java:102)
+	at com.jme3.app.SimpleApplication.initialize(SimpleApplication.java:226)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.initInThread(LwjglAbstractDisplay.java:130)
+	at com.jme3.system.lwjgl.LwjglAbstractDisplay.run(LwjglAbstractDisplay.java:207)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.patchworkgalaxy.template.ParseException: In animations.kvp, line 175:
+
+	at com.patchworkgalaxy.template.Parser.parse(Parser.java:45)
+	at com.patchworkgalaxy.template.Parser.subparser(Parser.java:113)
+	at com.patchworkgalaxy.template.parser.AnimationParser.staged(AnimationParser.java:74)
+	at com.patchworkgalaxy.template.parser.AnimationParser.section(AnimationParser.java:36)
+	at com.patchworkgalaxy.template.Parser.parse0(Parser.java:57)
+	at com.patchworkgalaxy.template.Parser.parse(Parser.java:42)
+	at com.patchworkgalaxy.template.parser.DataSourcesParser.interpret(DataSourcesParser.java:54)
+	at com.patchworkgalaxy.template.Parser.parse0(Parser.java:59)
+	at com.patchworkgalaxy.template.Parser.parse(Parser.java:42)
+	at com.patchworkgalaxy.template.parser.DataSourcesParser.parse(DataSourcesParser.java:98)
+	at com.patchworkgalaxy.template.TemplateRegistry.init(TemplateRegistry.java:141)
+	... 5 more
+Caused by: java.lang.IllegalArgumentException: Attempted to create stage with negative duration
+	at com.patchworkgalaxy.display.models.Stage.create(Stage.java:24)
+	at com.patchworkgalaxy.template.parser.StageParser.interpret(StageParser.java:63)
+	at com.patchworkgalaxy.template.Parser.parse0(Parser.java:59)
+	at com.patchworkgalaxy.template.Parser.parse(Parser.java:42)
+	... 15 more
